@@ -187,6 +187,19 @@ License: MIT + file LICENSE
 MD5sum: bc0dbb466bcf54975f526ba68bbf37ba
 File: S7_0.2.0.tgz
 
+Package: SparseArray
+Version: 1.8.1
+Depends: R (>= 4.3.0), methods, Matrix, BiocGenerics (>= 0.43.1),
+        MatrixGenerics (>= 1.11.1), S4Vectors (>= 0.43.2), S4Arrays (>=
+        1.5.11)
+Imports: utils, stats, matrixStats, IRanges, XVector
+LinkingTo: S4Vectors, IRanges, XVector
+Suggests: HDF5Array, ExperimentHub, testthat, knitr, rmarkdown,
+        BiocStyle
+License: Artistic-2.0
+MD5sum: f3b0322f61c06ef161758ea29a5d564b
+File: SparseArray_1.8.1.tgz
+
 Package: SummarizedExperiment
 Version: 1.38.1
 Depends: R (>= 4.0.0), methods, MatrixGenerics (>= 1.1.3),
