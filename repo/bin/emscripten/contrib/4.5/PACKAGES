@@ -1,8 +1,7 @@
 Package: BH
 Version: 1.87.0-1
 License: BSL-1.0
-MD5sum: 75f1ea2a7f0158374d29e664d14e5ef7
-File: BH_1.87.0-1.tgz
+MD5sum: 30129e6ff739bdb0aa542afc96036b41
 
 Package: Biobase
 Version: 2.68.0
@@ -11,8 +10,7 @@ Imports: methods
 Suggests: tools, tkWidgets, ALL, RUnit, golubEsets, BiocStyle, knitr,
         limma
 License: Artistic-2.0
-MD5sum: dcd2f7377656c84db7a452c5b3ca9580
-File: Biobase_2.68.0.tgz
+MD5sum: 2aa60e65b21e8f9e6e4534b51ac1caa2
 
 Package: BiocGenerics
 Version: 0.54.1
@@ -23,8 +21,7 @@ Suggests: Biobase, S4Vectors, IRanges, S4Arrays, SparseArray,
         AnnotationDbi, affy, affyPLM, DESeq2, flowClust, MSnbase,
         annotate, MultiAssayExperiment, RUnit
 License: Artistic-2.0
-MD5sum: b5bb0f33c4d4cd88ce51109a285b8140
-File: BiocGenerics_0.54.1.tgz
+MD5sum: ed48e6b84a9f36c145419d5a4ed2798f
 
 Package: BiocParallel
 Version: 1.42.2
@@ -38,8 +35,7 @@ Suggests: BiocGenerics, tools, foreach, BBmisc, doParallel,
         knitr, batchtools, data.table
 Enhances: Rmpi
 License: GPL-2 | GPL-3 | BSL-1.0
-MD5sum: 286d05bc3d63cdf18e79b05a2ba42d1e
-File: BiocParallel_1.42.2.tgz
+MD5sum: c401cea6349d554eb76783c2861e8eac
 
 Package: DESeq2
 Version: 1.48.2
@@ -53,8 +49,7 @@ Suggests: testthat, knitr, rmarkdown, vsn, pheatmap, RColorBrewer,
         apeglm, ashr, tximport, tximeta, tximportData, readr, pbapply,
         airway, glmGamPoi, BiocManager
 License: LGPL (>= 3)
-MD5sum: 2ba04cd92505f8c6c0dc113ed4c3947b
-File: DESeq2_1.48.2.tgz
+MD5sum: ceb9631828d0b05dc541ed56df370fff
 
 Package: DelayedArray
 Version: 0.34.1
@@ -68,15 +63,13 @@ Suggests: BiocParallel, HDF5Array (>= 1.17.12), genefilter,
         SummarizedExperiment, airway, lobstr, DelayedMatrixStats,
         knitr, rmarkdown, BiocStyle, RUnit
 License: Artistic-2.0
-MD5sum: f02c55651daf114cf8c3de44bfe555dc
-File: DelayedArray_0.34.1.tgz
+MD5sum: dee8e0da73535ff315bda61d7fdc98cd
 
 Package: GenomeInfoDbData
 Version: 1.2.14
 Depends: R (>= 3.5.0)
 License: Artistic-2.0
-MD5sum: 5146e4f2a781b2fba86da1b719f2d410
-File: GenomeInfoDbData_1.2.14.tgz
+MD5sum: 363f96e7ad0f40ff59a78f54259d9e2c
 
 Package: GenomeInfoDb
 Version: 1.44.3
@@ -89,8 +82,7 @@ Suggests: R.utils, data.table, GenomicRanges, Rsamtools,
         BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Celegans.UCSC.ce2,
         BSgenome.Hsapiens.NCBI.GRCh38, RUnit, BiocStyle, knitr
 License: Artistic-2.0
-MD5sum: 01abb69fe9038f7859a466d7e0058c09
-File: GenomeInfoDb_1.44.3.tgz
+MD5sum: e8966bac66f0771393303068a7a0bd3e
 
 Package: GenomicRanges
 Version: 1.60.0
@@ -113,8 +105,7 @@ Suggests: Matrix, Biobase, AnnotationDbi, annotate, Biostrings (>=
         TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr,
         rmarkdown, BiocStyle
 License: Artistic-2.0
-MD5sum: 40d21aa448441edda6fdf5b4363facce
-File: GenomicRanges_1.60.0.tgz
+MD5sum: 97113753ad5b1706864137619ffad215
 
 Package: IRanges
 Version: 2.42.0
@@ -126,8 +117,7 @@ Suggests: XVector, GenomicRanges, Rsamtools, GenomicAlignments,
         GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset,
         RUnit, BiocStyle
 License: Artistic-2.0
-MD5sum: b0126125759be64ac60a40a2bc61c528
-File: IRanges_2.42.0.tgz
+MD5sum: 8dd1c5feafbdec25090c74b0fe373814
 
 Package: MatrixGenerics
 Version: 1.20.0
@@ -136,23 +126,46 @@ Imports: methods
 Suggests: Matrix, sparseMatrixStats, SparseArray, DelayedArray,
         DelayedMatrixStats, SummarizedExperiment, testthat (>= 2.1.0)
 License: Artistic-2.0
-MD5sum: 4411ee30de327d866965327e2e30502f
-File: MatrixGenerics_1.20.0.tgz
+MD5sum: 4c474c1825da6065cbd1d6c0eba3592a
+
+Package: Matrix
+Version: 1.7-4
+Priority: recommended
+Depends: R (>= 4.4), methods
+Imports: grDevices, graphics, grid, lattice, stats, utils
+Suggests: MASS, datasets, sfsmisc, tools
+Enhances: SparseM, graph
+License: GPL (>= 2) | file LICENCE
+MD5sum: e04a711b08b70457fc934742d109a98c
 
 Package: R6
 Version: 2.6.1
 Depends: R (>= 3.6)
 Suggests: lobstr, testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: bb5c386e5f3469305e3d19d021af416c
-File: R6_2.6.1.tgz
+MD5sum: 4d3e7abd9facabc008d4cb76fed54fb6
 
 Package: RColorBrewer
 Version: 1.1-3
 Depends: R (>= 2.0.0)
 License: Apache License 2.0
-MD5sum: ba31e9283219fb7688d8e8d51592512b
-File: RColorBrewer_1.1-3.tgz
+MD5sum: b77ba7773b0befbec0b6d5330776452d
+
+Package: RcppArmadillo
+Version: 15.0.2-2
+Depends: R (>= 3.3.0)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+MD5sum: 70c608c2792bab60aa9568ff835684b2
+
+Package: Rcpp
+Version: 1.1.0
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 639afeeddfbc8ef53552670fd0627843
 
 Package: S4Arrays
 Version: 1.8.1
@@ -163,8 +176,7 @@ LinkingTo: S4Vectors
 Suggests: BiocParallel, SparseArray (>= 0.0.4), DelayedArray,
         HDF5Array, testthat, knitr, rmarkdown, BiocStyle
 License: Artistic-2.0
-MD5sum: 8604216169ce1beb344d49014b4df33c
-File: S4Arrays_1.8.1.tgz
+MD5sum: e0196f9275c2d993a5385f6c7154a0df
 
 Package: S4Vectors
 Version: 0.46.0
@@ -174,8 +186,7 @@ Suggests: IRanges, GenomicRanges, SummarizedExperiment, Matrix,
         DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle,
         knitr
 License: Artistic-2.0
-MD5sum: 4ad433f3a48f5fb7052baad39f05057b
-File: S4Vectors_0.46.0.tgz
+MD5sum: b16eea293d43a70dadd5e667fb545568
 
 Package: S7
 Version: 0.2.0
@@ -184,8 +195,7 @@ Imports: utils
 Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>=
         3.2.0), tibble
 License: MIT + file LICENSE
-MD5sum: bc0dbb466bcf54975f526ba68bbf37ba
-File: S7_0.2.0.tgz
+MD5sum: ba1cc79705cbcb2643c194e7f2ff7ee6
 
 Package: SparseArray
 Version: 1.8.1
@@ -197,8 +207,7 @@ LinkingTo: S4Vectors, IRanges, XVector
 Suggests: HDF5Array, ExperimentHub, testthat, knitr, rmarkdown,
         BiocStyle
 License: Artistic-2.0
-MD5sum: f3b0322f61c06ef161758ea29a5d564b
-File: SparseArray_1.8.1.tgz
+MD5sum: 09be82601c5240cf8ab386ade73ef71f
 
 Package: SummarizedExperiment
 Version: 1.38.1
@@ -213,8 +222,7 @@ Suggests: jsonlite, rhdf5, HDF5Array (>= 1.7.5), annotate,
         hgu95av2.db, airway (>= 1.15.1), BiocStyle, knitr, rmarkdown,
         RUnit, testthat, digest
 License: Artistic-2.0
-MD5sum: 116638c1fe50da64171bee547bd4e27a
-File: SummarizedExperiment_1.38.1.tgz
+MD5sum: 1cd39af1531be22b7e92b052f42adc58
 
 Package: UCSC.utils
 Version: 1.4.0
@@ -222,8 +230,7 @@ Imports: methods, stats, httr, jsonlite, S4Vectors
 Suggests: DBI, RMariaDB, GenomeInfoDb, testthat, knitr, rmarkdown,
         BiocStyle
 License: Artistic-2.0
-MD5sum: 27c6d41c9083506785c2d17ee63db950
-File: UCSC.utils_1.4.0.tgz
+MD5sum: ad45fb1d268efd12c2a2db6e7c3aecf9
 
 Package: XVector
 Version: 0.48.0
@@ -233,24 +240,21 @@ Imports: methods, utils, tools, BiocGenerics, S4Vectors, IRanges
 LinkingTo: S4Vectors, IRanges
 Suggests: Biostrings, drosophila2probe, RUnit
 License: Artistic-2.0
-MD5sum: b9c93435c5cdd7789eeb490bd838fbcd
-File: XVector_0.48.0.tgz
+MD5sum: 0bb9d0e9fc0a79d6e20b1d7d11885b75
 
 Package: abind
 Version: 1.4-8
 Depends: R (>= 1.5.0)
 Imports: methods, utils
 License: MIT + file LICENSE
-MD5sum: 61a9aa865de0b214d2383cf59f4fef46
-File: abind_1.4-8.tgz
+MD5sum: 2ff95dad5711e4f367bfe35c247bbcbe
 
 Package: askpass
 Version: 1.2.1
 Imports: sys (>= 2.1)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: e5db28da580e4e818d4ce265bb0f36e5
-File: askpass_1.2.1.tgz
+MD5sum: cbce61740151488e237f98ab40eb7c17
 
 Package: cli
 Version: 3.6.5
@@ -261,16 +265,14 @@ Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
         1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
         rstudioapi, testthat (>= 3.2.0), tibble, whoami, withr
 License: MIT + file LICENSE
-MD5sum: 70dedcb19eccd44cb3279d278d759849
-File: cli_3.6.5.tgz
+MD5sum: dea441d27c00b9aa6780d5b142b0cd74
 
 Package: codetools
 Version: 0.2-20
 Priority: recommended
 Depends: R (>= 2.1)
 License: GPL
-MD5sum: 67bb52790872848eaf1684fc22798b9f
-File: codetools_0.2-20.tgz
+MD5sum: ec34a3c908960dae17bed5fe12bd11ce
 
 Package: cpp11
 Version: 0.5.2
@@ -279,31 +281,35 @@ Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
         knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
         testthat (>= 3.2.0), tibble, utils, vctrs, withr
 License: MIT + file LICENSE
-MD5sum: d6684ce5b386023252ab1bce028d3956
-File: cpp11_0.5.2.tgz
+MD5sum: 920570c591a66e7505d9feecbbd0edde
 
 Package: crayon
 Version: 1.5.3
 Imports: grDevices, methods, utils
 Suggests: mockery, rstudioapi, testthat, withr
 License: MIT + file LICENSE
-MD5sum: 868d8364c8c888e2a6c34c5c20ca221a
-File: crayon_1.5.3.tgz
+MD5sum: 4d9847350ded79a62c8f49ce7f12242f
+
+Package: curl
+Version: 7.0.0
+Depends: R (>= 3.0.0)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later,
+        rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+MD5sum: a64f8e439afe9762f7af40131a0f980c
 
 Package: farver
 Version: 2.1.2
 Suggests: covr, testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: 77ee7f8f3f26e0ee1dc722ae203f51ba
-File: farver_2.1.2.tgz
+MD5sum: 3997e570f3adf63d3bd29b30b0c369ae
 
 Package: formatR
 Version: 1.14
 Depends: R (>= 3.2.3)
 Suggests: rstudioapi, shiny, testit, rmarkdown, knitr
 License: GPL
-MD5sum: a982562b9bcac400b9fe20a77b921c38
-File: formatR_1.14.tgz
+MD5sum: 9372b38d8af568a1cc855e6720aeb669
 
 Package: futile.logger
 Version: 1.4.3
@@ -311,15 +317,13 @@ Depends: R (>= 3.0.0)
 Imports: utils, lambda.r (>= 1.1.0), futile.options
 Suggests: testthat, jsonlite
 License: LGPL-3
-MD5sum: dd995587aa518fbf3d4125ebb8a0f2a1
-File: futile.logger_1.4.3.tgz
+MD5sum: dc1c50c1dade3f8313205a58926a9a88
 
 Package: futile.options
 Version: 1.0.1
 Depends: R (>= 2.8.0)
 License: LGPL-3
-MD5sum: fedb5af2e0244a268675f455b4f03127
-File: futile.options_1.0.1.tgz
+MD5sum: 4d3ea26445537c5c3281fd51b06fc96c
 
 Package: generics
 Version: 0.1.4
@@ -327,8 +331,7 @@ Depends: R (>= 3.6)
 Imports: methods
 Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
 License: MIT + file LICENSE
-MD5sum: 791f849e38f833742152da6eca5e4785
-File: generics_0.1.4.tgz
+MD5sum: b06da212627f5dc60f224f7f744094fc
 
 Package: ggplot2
 Version: 4.0.0
@@ -343,8 +346,7 @@ Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr,
         tibble, vdiffr (>= 1.0.6), xml2
 Enhances: sp
 License: MIT + file LICENSE
-MD5sum: 058bded3156a16986e3eadf1383bd9c7
-File: ggplot2_4.0.0.tgz
+MD5sum: ac81561e67c29e98e3947cc0e9c93f57
 
 Package: glue
 Version: 1.8.0
@@ -354,8 +356,7 @@ Suggests: crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang,
         rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0),
         waldo (>= 0.5.3), withr
 License: MIT + file LICENSE
-MD5sum: 92bcb201518c396f8f83186118c3002d
-File: glue_1.8.0.tgz
+MD5sum: 5410e49d6bda9c7d526358785c332283
 
 Package: gtable
 Version: 0.3.6
@@ -363,8 +364,7 @@ Depends: R (>= 4.0)
 Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0), stats
 Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: 4f63c4dfe2f89fbb10d1a6ee7986eec9
-File: gtable_0.3.6.tgz
+MD5sum: 5eac71403e90934dc150dc173b5efd3f
 
 Package: httr
 Version: 1.4.7
@@ -373,8 +373,7 @@ Imports: curl (>= 5.0.2), jsonlite, mime, openssl (>= 0.8), R6
 Suggests: covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
         (>= 0.8.0), xml2
 License: MIT + file LICENSE
-MD5sum: f42754d669360e1ab07cfb21dda8abe5
-File: httr_1.4.7.tgz
+MD5sum: 012b284b28ee482576afdd4bba06d922
 
 Package: isoband
 Version: 0.2.7
@@ -382,23 +381,20 @@ Imports: grid, utils
 Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
         testthat, xml2
 License: MIT + file LICENSE
-MD5sum: 95c40f8542ab5df052e38da2b4577222
-File: isoband_0.2.7.tgz
+MD5sum: c354d326f3f6ba0a86452f312613ad04
 
 Package: jsonlite
 Version: 2.0.0
 Depends: methods
 Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
 License: MIT + file LICENSE
-MD5sum: 0a0e0f844dbd7f6bcd1516991e5c432d
-File: jsonlite_2.0.0.tgz
+MD5sum: 9827abeb099a2b94b09dfa9f9ea6968a
 
 Package: labeling
 Version: 0.4.3
 Imports: stats, graphics
 License: MIT + file LICENSE | Unlimited
-MD5sum: e292733210378b6b7ec7dcedf7594b24
-File: labeling_0.4.3.tgz
+MD5sum: b54d4aa2792fe8b58f2fff261111b650
 
 Package: lambda.r
 Version: 1.2.4
@@ -406,8 +402,7 @@ Depends: R (>= 3.0.0)
 Imports: formatR
 Suggests: testit
 License: LGPL-3
-MD5sum: 549704d9d2bb56048b03f7de1237666b
-File: lambda.r_1.2.4.tgz
+MD5sum: 1e3bd2a2cf48191eea1b2726f448c980
 
 Package: lattice
 Version: 0.22-7
@@ -417,8 +412,7 @@ Imports: grid, grDevices, graphics, stats, utils
 Suggests: KernSmooth, MASS, latticeExtra, colorspace
 Enhances: chron, zoo
 License: GPL (>= 2)
-MD5sum: 5d0f29e1e324e5706370193a3f799f04
-File: lattice_0.22-7.tgz
+MD5sum: 1d9f1c69bb82ae4f79088573b732945c
 
 Package: lifecycle
 Version: 1.0.4
@@ -427,8 +421,7 @@ Imports: cli (>= 3.4.0), glue, rlang (>= 1.1.0)
 Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
         tibble, tidyverse, tools, vctrs, withr
 License: MIT + file LICENSE
-MD5sum: 1a663e442b8f9127c4d78a1df0a3cec2
-File: lifecycle_1.0.4.tgz
+MD5sum: 957fd969251cfd83fb611bc1b37e2270
 
 Package: locfit
 Version: 1.5-9.12
@@ -436,8 +429,7 @@ Depends: R (>= 4.1.0)
 Imports: lattice
 Suggests: interp, gam
 License: GPL (>= 2)
-MD5sum: c0781aca5ff318bfd67259f49859967d
-File: locfit_1.5-9.12.tgz
+MD5sum: 615dd6e767e53f9c7298e255ab974ddf
 
 Package: matrixStats
 Version: 1.5.0
@@ -445,15 +437,21 @@ Depends: R (>= 3.4.0)
 Suggests: utils, base64enc, ggplot2, knitr, markdown, microbenchmark,
         R.devices, R.rsp
 License: Artistic-2.0
-MD5sum: 4ff60ea964a357ce9b4b7a42eba904f8
-File: matrixStats_1.5.0.tgz
+MD5sum: aac8c8fb2cae958d071ad3a103f1a0cb
 
 Package: mime
 Version: 0.13
 Imports: tools
 License: GPL
-MD5sum: 75a3fc2c1becea90eb4df304f39bc5d2
-File: mime_0.13.tgz
+MD5sum: 182e1e155d697bf03564725926b5b817
+
+Package: openssl
+Version: 2.3.4
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+        jsonlite, jose, sodium
+License: MIT + file LICENSE
+MD5sum: 79ce7e3e1ea2f5d0417668867a24c42e
 
 Package: rlang
 Version: 1.1.6
@@ -464,8 +462,7 @@ Suggests: cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr,
         (>= 3.2.0), tibble, usethis, vctrs (>= 0.2.3), withr
 Enhances: winch
 License: MIT + file LICENSE
-MD5sum: 6c4501dd4d0feac40d95fbdd5e9bce48
-File: rlang_1.1.6.tgz
+MD5sum: 1a1ccae1c192958984738745767ef2cf
 
 Package: scales
 Version: 1.4.0
@@ -475,8 +472,7 @@ Imports: cli, farver (>= 2.0.3), glue, labeling, lifecycle, R6,
 Suggests: bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
         testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: 3d029cd45eab4db606e7578d66b432e8
-File: scales_1.4.0.tgz
+MD5sum: bfa523701e8e6f5ef844d8bc17d634b9
 
 Package: snow
 Version: 0.4-4
@@ -484,15 +480,13 @@ Depends: R (>= 2.13.1), utils
 Suggests: rlecuyer
 Enhances: Rmpi
 License: GPL
-MD5sum: ec61b11f0d3a753f025e9de440ae58d4
-File: snow_0.4-4.tgz
+MD5sum: 478eac537082b8d62cbf62a9fbabaedd
 
 Package: sys
 Version: 3.4.3
 Suggests: unix (>= 1.4), spelling, testthat
 License: MIT + file LICENSE
-MD5sum: 867d509b93080e400796d56b9e8f013e
-File: sys_3.4.3.tgz
+MD5sum: 6c831123cd46597a2c9f52bde63ab233
 
 Package: vctrs
 Version: 0.6.5
@@ -503,16 +497,14 @@ Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
         3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
         zeallot
 License: MIT + file LICENSE
-MD5sum: 42d4822e5cddade62e5ff071029931f7
-File: vctrs_0.6.5.tgz
+MD5sum: f3694977b0ee283d7cfc4375b44017e5
 
 Package: viridisLite
 Version: 0.4.2
 Depends: R (>= 2.10)
 Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
 License: MIT + file LICENSE
-MD5sum: ef2a5643224f034ae2531c9b6d530267
-File: viridisLite_0.4.2.tgz
+MD5sum: a7d2bc49c97a0834abd97f5acb1352ca
 
 Package: withr
 Version: 3.0.2
@@ -521,5 +513,4 @@ Imports: graphics, grDevices
 Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12),
         RSQLite, testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: 7e1c4d99423f7bad94cd42a1db62238b
-File: withr_3.0.2.tgz
+MD5sum: 857a6596060d5cf047ed97f0e1cc1f22
