@@ -1,0 +1,508 @@
+Package: BH
+Version: 1.87.0-1
+License: BSL-1.0
+MD5sum: 8cf39b08d4662a3a72d9439db2a1b27e
+
+Package: Biobase
+Version: 2.68.0
+Depends: R (>= 2.10), BiocGenerics (>= 0.27.1), utils
+Imports: methods
+Suggests: tools, tkWidgets, ALL, RUnit, golubEsets, BiocStyle, knitr,
+        limma
+License: Artistic-2.0
+MD5sum: bae36dad5d6afb082e89cd432b0131d1
+
+Package: BiocGenerics
+Version: 0.54.1
+Depends: R (>= 4.0.0), methods, utils, graphics, stats, generics
+Imports: methods, utils, graphics, stats
+Suggests: Biobase, S4Vectors, IRanges, S4Arrays, SparseArray,
+        DelayedArray, HDF5Array, GenomicRanges, pwalign, Rsamtools,
+        AnnotationDbi, affy, affyPLM, DESeq2, flowClust, MSnbase,
+        annotate, MultiAssayExperiment, RUnit
+License: Artistic-2.0
+MD5sum: ebe4937b328c96b79a3bde25b2a48764
+
+Package: BiocParallel
+Version: 1.42.2
+Depends: methods, R (>= 4.1.0)
+Imports: stats, utils, futile.logger, parallel, snow, codetools
+LinkingTo: BH (>= 1.87.0), cpp11
+Suggests: BiocGenerics, tools, foreach, BBmisc, doParallel,
+        GenomicRanges, RNAseqData.HNRNPC.bam.chr14,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, VariantAnnotation,
+        Rsamtools, GenomicAlignments, ShortRead, RUnit, BiocStyle,
+        knitr, batchtools, data.table
+Enhances: Rmpi
+License: GPL-2 | GPL-3 | BSL-1.0
+MD5sum: acdcda95c3ca81892287e1b927d2d22d
+
+Package: DESeq2
+Version: 1.48.2
+Depends: S4Vectors (>= 0.23.18), IRanges, GenomicRanges,
+        SummarizedExperiment (>= 1.1.6)
+Imports: BiocGenerics (>= 0.7.5), Biobase, BiocParallel, matrixStats,
+        methods, stats4, locfit, ggplot2 (>= 3.4.0), Rcpp (>= 0.11.0),
+        MatrixGenerics
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat, knitr, rmarkdown, vsn, pheatmap, RColorBrewer,
+        apeglm, ashr, tximport, tximeta, tximportData, readr, pbapply,
+        airway, glmGamPoi, BiocManager
+License: LGPL (>= 3)
+MD5sum: 4c579e12213fc1ca3ea288b4b2adbdee
+
+Package: DelayedArray
+Version: 0.34.1
+Depends: R (>= 4.0.0), methods, stats4, Matrix, BiocGenerics (>=
+        0.53.3), MatrixGenerics (>= 1.1.3), S4Vectors (>= 0.27.2),
+        IRanges (>= 2.17.3), S4Arrays (>= 1.5.4), SparseArray (>=
+        1.7.5)
+Imports: stats
+LinkingTo: S4Vectors
+Suggests: BiocParallel, HDF5Array (>= 1.17.12), genefilter,
+        SummarizedExperiment, airway, lobstr, DelayedMatrixStats,
+        knitr, rmarkdown, BiocStyle, RUnit
+License: Artistic-2.0
+MD5sum: 708491eeba0e936be9512f44b29e2a38
+
+Package: GenomeInfoDbData
+Version: 1.2.14
+Depends: R (>= 3.5.0)
+License: Artistic-2.0
+MD5sum: 992a3f6e8e705573adca6f4913d831b1
+
+Package: GenomeInfoDb
+Version: 1.44.3
+Depends: R (>= 4.0.0), methods, BiocGenerics (>= 0.53.2), S4Vectors (>=
+        0.45.2), IRanges (>= 2.41.1)
+Imports: stats, stats4, utils, UCSC.utils, GenomeInfoDbData
+Suggests: R.utils, data.table, GenomicRanges, Rsamtools,
+        GenomicAlignments, GenomicFeatures, BSgenome,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+        BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Celegans.UCSC.ce2,
+        BSgenome.Hsapiens.NCBI.GRCh38, RUnit, BiocStyle, knitr
+License: Artistic-2.0
+MD5sum: 4a4fb94cd0e828fd9b8bc829b7d82e2a
+
+Package: GenomicRanges
+Version: 1.60.0
+Depends: R (>= 4.0.0), methods, stats4, BiocGenerics (>= 0.53.2),
+        S4Vectors (>= 0.45.2), IRanges (>= 2.41.1), GenomeInfoDb (>=
+        1.43.1)
+Imports: utils, stats, XVector (>= 0.29.2)
+LinkingTo: S4Vectors, IRanges
+Suggests: Matrix, Biobase, AnnotationDbi, annotate, Biostrings (>=
+        2.25.3), SummarizedExperiment (>= 0.1.5), Rsamtools (>=
+        1.13.53), GenomicAlignments, rtracklayer, BSgenome,
+        GenomicFeatures, txdbmaker, Gviz, VariantAnnotation,
+        AnnotationHub, DESeq2, DEXSeq, edgeR, KEGGgraph,
+        RNAseqData.HNRNPC.bam.chr14, pasillaBamSubset, KEGGREST,
+        hgu95av2.db, hgu95av2probe, BSgenome.Scerevisiae.UCSC.sacCer2,
+        BSgenome.Hsapiens.UCSC.hg38, BSgenome.Mmusculus.UCSC.mm10,
+        TxDb.Athaliana.BioMart.plantsmart22,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+        TxDb.Hsapiens.UCSC.hg38.knownGene,
+        TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr,
+        rmarkdown, BiocStyle
+License: Artistic-2.0
+MD5sum: 32c1e274d11509ce5b59eb57f17f5727
+
+Package: IRanges
+Version: 2.42.0
+Depends: R (>= 4.0.0), methods, utils, stats, BiocGenerics (>= 0.53.2),
+        S4Vectors (>= 0.45.4)
+Imports: stats4
+LinkingTo: S4Vectors
+Suggests: XVector, GenomicRanges, Rsamtools, GenomicAlignments,
+        GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset,
+        RUnit, BiocStyle
+License: Artistic-2.0
+MD5sum: 0431a6f05fde2dbc3c9dda105a367c45
+
+Package: MatrixGenerics
+Version: 1.20.0
+Depends: matrixStats (>= 1.4.1)
+Imports: methods
+Suggests: Matrix, sparseMatrixStats, SparseArray, DelayedArray,
+        DelayedMatrixStats, SummarizedExperiment, testthat (>= 2.1.0)
+License: Artistic-2.0
+MD5sum: 8eef2c7a78837860dae9acaeec71b79f
+
+Package: Matrix
+Version: 1.7-4
+Priority: recommended
+Depends: R (>= 4.4), methods
+Imports: grDevices, graphics, grid, lattice, stats, utils
+Suggests: MASS, datasets, sfsmisc, tools
+Enhances: SparseM, graph
+License: GPL (>= 2) | file LICENCE
+MD5sum: 36817d53aee95749247a21d798fec816
+
+Package: R6
+Version: 2.6.1
+Depends: R (>= 3.6)
+Suggests: lobstr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: c4b37db61e75f6f9e9723207f1f015b8
+
+Package: RColorBrewer
+Version: 1.1-3
+Depends: R (>= 2.0.0)
+License: Apache License 2.0
+MD5sum: bf2ead18ffbe78688326be4fa9676310
+
+Package: RcppArmadillo
+Version: 15.0.2-2
+Depends: R (>= 3.3.0)
+Imports: Rcpp (>= 1.0.12), stats, utils, methods
+LinkingTo: Rcpp
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+MD5sum: 4376e9a0618d6ee00e98c5cd29057e24
+
+Package: Rcpp
+Version: 1.1.0
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 41b50647c4932057f480520bebee3a74
+
+Package: S4Arrays
+Version: 1.8.1
+Depends: R (>= 4.3.0), methods, Matrix, abind, BiocGenerics (>=
+        0.45.2), S4Vectors, IRanges
+Imports: stats, crayon
+LinkingTo: S4Vectors
+Suggests: BiocParallel, SparseArray (>= 0.0.4), DelayedArray,
+        HDF5Array, testthat, knitr, rmarkdown, BiocStyle
+License: Artistic-2.0
+MD5sum: a64569d115fc0c81c2a1a30895628a98
+
+Package: S4Vectors
+Version: 0.46.0
+Depends: R (>= 4.0.0), methods, utils, stats, stats4, BiocGenerics (>=
+        0.53.2)
+Suggests: IRanges, GenomicRanges, SummarizedExperiment, Matrix,
+        DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle,
+        knitr
+License: Artistic-2.0
+MD5sum: 6258144f1fd011de228fb7a4def5ac93
+
+Package: S7
+Version: 0.2.0
+Depends: R (>= 3.5.0)
+Imports: utils
+Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>=
+        3.2.0), tibble
+License: MIT + file LICENSE
+MD5sum: 7e1ba27f2cb7beeb0b12a5580ee71a26
+
+Package: SparseArray
+Version: 1.8.1
+Depends: R (>= 4.3.0), methods, Matrix, BiocGenerics (>= 0.43.1),
+        MatrixGenerics (>= 1.11.1), S4Vectors (>= 0.43.2), S4Arrays (>=
+        1.5.11)
+Imports: utils, stats, matrixStats, IRanges, XVector
+LinkingTo: S4Vectors, IRanges, XVector
+Suggests: HDF5Array, ExperimentHub, testthat, knitr, rmarkdown,
+        BiocStyle
+License: Artistic-2.0
+MD5sum: 0a3b7b3824ab31f4f481b75f0763007b
+
+Package: SummarizedExperiment
+Version: 1.38.1
+Depends: R (>= 4.0.0), methods, MatrixGenerics (>= 1.1.3),
+        GenomicRanges (>= 1.55.2), Biobase
+Imports: utils, stats, tools, Matrix, BiocGenerics (>= 0.51.3),
+        S4Vectors (>= 0.33.7), IRanges (>= 2.23.9), GenomeInfoDb (>=
+        1.13.1), S4Arrays (>= 1.1.1), DelayedArray (>= 0.31.12)
+Suggests: jsonlite, rhdf5, HDF5Array (>= 1.7.5), annotate,
+        AnnotationDbi, GenomicFeatures, SparseArray,
+        SingleCellExperiment, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        hgu95av2.db, airway (>= 1.15.1), BiocStyle, knitr, rmarkdown,
+        RUnit, testthat, digest
+License: Artistic-2.0
+MD5sum: 3ed591e5f857aff7854928507fe8feb1
+
+Package: UCSC.utils
+Version: 1.4.0
+Imports: methods, stats, httr, jsonlite, S4Vectors
+Suggests: DBI, RMariaDB, GenomeInfoDb, testthat, knitr, rmarkdown,
+        BiocStyle
+License: Artistic-2.0
+MD5sum: af870a4b92a855274f1dac757c05be2c
+
+Package: XVector
+Version: 0.48.0
+Depends: R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+        0.27.12), IRanges (>= 2.23.9)
+Imports: methods, utils, tools, BiocGenerics, S4Vectors, IRanges
+LinkingTo: S4Vectors, IRanges
+Suggests: Biostrings, drosophila2probe, RUnit
+License: Artistic-2.0
+MD5sum: 7b7128ea1d7554c3716304e6cd218488
+
+Package: abind
+Version: 1.4-8
+Depends: R (>= 1.5.0)
+Imports: methods, utils
+License: MIT + file LICENSE
+MD5sum: 47ef3b6e6a0240b3291622d4aeac5876
+
+Package: askpass
+Version: 1.2.1
+Imports: sys (>= 2.1)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: c7bb560d141db0fba8a3fc651b115670
+
+Package: cli
+Version: 3.6.5
+Depends: R (>= 3.4)
+Imports: utils
+Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
+        htmltools, htmlwidgets, knitr, methods, processx, ps (>=
+        1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+        rstudioapi, testthat (>= 3.2.0), tibble, whoami, withr
+License: MIT + file LICENSE
+MD5sum: e188377fdf9e690b0353f0658f54a82f
+
+Package: codetools
+Version: 0.2-20
+Priority: recommended
+Depends: R (>= 2.1)
+License: GPL
+MD5sum: 1d2b8389520f0bea868bab5f82c85f98
+
+Package: cpp11
+Version: 0.5.2
+Depends: R (>= 4.0.0)
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+        knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+        testthat (>= 3.2.0), tibble, utils, vctrs, withr
+License: MIT + file LICENSE
+MD5sum: 243e1bedbefc82b8daebd555a106ef9e
+
+Package: crayon
+Version: 1.5.3
+Imports: grDevices, methods, utils
+Suggests: mockery, rstudioapi, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 73074974e060927d06849aa2bcc2f5fc
+
+Package: curl
+Version: 7.0.0
+Depends: R (>= 3.0.0)
+Suggests: spelling, testthat (>= 1.0.0), knitr, jsonlite, later,
+        rmarkdown, httpuv (>= 1.4.4), webutils
+License: MIT + file LICENSE
+MD5sum: 448a725e9d391d74fc5292db03bc11ff
+
+Package: farver
+Version: 2.1.2
+Suggests: covr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 2764c362c3e0a3855888d7c737366aa8
+
+Package: formatR
+Version: 1.14
+Depends: R (>= 3.2.3)
+Suggests: rstudioapi, shiny, testit, rmarkdown, knitr
+License: GPL
+MD5sum: f191fb057f90ceec7b2a8f0c23a1abe2
+
+Package: futile.logger
+Version: 1.4.3
+Depends: R (>= 3.0.0)
+Imports: utils, lambda.r (>= 1.1.0), futile.options
+Suggests: testthat, jsonlite
+License: LGPL-3
+MD5sum: e3d944b6c65d9ec84c7d729fe9f9ebd8
+
+Package: futile.options
+Version: 1.0.1
+Depends: R (>= 2.8.0)
+License: LGPL-3
+MD5sum: 307b82d0e7f9b6aae0d42b37fd2470e3
+
+Package: generics
+Version: 0.1.4
+Depends: R (>= 3.6)
+Imports: methods
+Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
+License: MIT + file LICENSE
+MD5sum: 82b477d31661f83710ebf9848507fab5
+
+Package: ggplot2
+Version: 4.0.0
+Depends: R (>= 4.1)
+Imports: cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (>
+        1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs
+        (>= 0.6.0), withr (>= 2.5.0)
+Suggests: broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr,
+        mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis,
+        quantreg, ragg (>= 1.2.6), RColorBrewer, rmarkdown, roxygen2,
+        rpart, sf (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5),
+        tibble, vdiffr (>= 1.0.6), xml2
+Enhances: sp
+License: MIT + file LICENSE
+MD5sum: d31bd95955e7c09cf800dde84c7ae1ed
+
+Package: glue
+Version: 1.8.0
+Depends: R (>= 3.6)
+Imports: methods
+Suggests: crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang,
+        rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0),
+        waldo (>= 0.5.3), withr
+License: MIT + file LICENSE
+MD5sum: 380df0ef4dd2604144253ab17ff58115
+
+Package: gtable
+Version: 0.3.6
+Depends: R (>= 4.0)
+Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0), stats
+Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: b9e24c1c58c5e7fa476bb1cb36643fa0
+
+Package: httr
+Version: 1.4.7
+Depends: R (>= 3.5)
+Imports: curl (>= 5.0.2), jsonlite, mime, openssl (>= 0.8), R6
+Suggests: covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+        (>= 0.8.0), xml2
+License: MIT + file LICENSE
+MD5sum: 0dea6895a19bf0836dcf7cde527681d6
+
+Package: isoband
+Version: 0.2.7
+Imports: grid, utils
+Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+        testthat, xml2
+License: MIT + file LICENSE
+MD5sum: bc9a6bdfec94396b66808c593448de30
+
+Package: jsonlite
+Version: 2.0.0
+Depends: methods
+Suggests: httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf
+License: MIT + file LICENSE
+MD5sum: 6ea22ac50a0f291e0f5f25b4e84087ff
+
+Package: labeling
+Version: 0.4.3
+Imports: stats, graphics
+License: MIT + file LICENSE | Unlimited
+MD5sum: 6fdc02100862d1f005f8afffabd9ec73
+
+Package: lambda.r
+Version: 1.2.4
+Depends: R (>= 3.0.0)
+Imports: formatR
+Suggests: testit
+License: LGPL-3
+MD5sum: d55e267c9846db124f590252674dbfab
+
+Package: lattice
+Version: 0.22-7
+Priority: recommended
+Depends: R (>= 4.0.0)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS, latticeExtra, colorspace
+Enhances: chron, zoo
+License: GPL (>= 2)
+MD5sum: 3af1d2ce10ece8698f1d3b302ce78f3e
+
+Package: lifecycle
+Version: 1.0.4
+Depends: R (>= 3.6)
+Imports: cli (>= 3.4.0), glue, rlang (>= 1.1.0)
+Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
+        tibble, tidyverse, tools, vctrs, withr
+License: MIT + file LICENSE
+MD5sum: c197432bba1296e040ce516ec0ed9029
+
+Package: matrixStats
+Version: 1.5.0
+Depends: R (>= 3.4.0)
+Suggests: utils, base64enc, ggplot2, knitr, markdown, microbenchmark,
+        R.devices, R.rsp
+License: Artistic-2.0
+MD5sum: b106b1268085a67732cb175d2f29bed1
+
+Package: mime
+Version: 0.13
+Imports: tools
+License: GPL
+MD5sum: 41131927470646ac35abe8277b8f771a
+
+Package: openssl
+Version: 2.3.4
+Imports: askpass
+Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+        jsonlite, jose, sodium
+License: MIT + file LICENSE
+MD5sum: fbca5bf4954cd435857f17fe56fd7675
+
+Package: rlang
+Version: 1.1.6
+Depends: R (>= 3.5.0)
+Imports: utils
+Suggests: cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr,
+        magrittr, methods, pillar, pkgload, rmarkdown, stats, testthat
+        (>= 3.2.0), tibble, usethis, vctrs (>= 0.2.3), withr
+Enhances: winch
+License: MIT + file LICENSE
+MD5sum: e133f82cf64957a4dffc195cb302a76c
+
+Package: scales
+Version: 1.4.0
+Depends: R (>= 4.1)
+Imports: cli, farver (>= 2.0.3), glue, labeling, lifecycle, R6,
+        RColorBrewer, rlang (>= 1.1.0), viridisLite
+Suggests: bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+        testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 201f8a99eebfef3d778fd3348121dc32
+
+Package: snow
+Version: 0.4-4
+Depends: R (>= 2.13.1), utils
+Suggests: rlecuyer
+Enhances: Rmpi
+License: GPL
+MD5sum: d7312bff92da69e58956afae78ae33e2
+
+Package: sys
+Version: 3.4.3
+Suggests: unix (>= 1.4), spelling, testthat
+License: MIT + file LICENSE
+MD5sum: 8ee434e5a5907db096c7f5d6ab570ab9
+
+Package: vctrs
+Version: 0.6.5
+Depends: R (>= 3.5.0)
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
+Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+        pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+        3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
+        zeallot
+License: MIT + file LICENSE
+MD5sum: 54678079be0251eabfe06e6cf664cb06
+
+Package: viridisLite
+Version: 0.4.2
+Depends: R (>= 2.10)
+Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
+License: MIT + file LICENSE
+MD5sum: f401a9846c44810db2dd43d40e223796
+
+Package: withr
+Version: 3.0.2
+Depends: R (>= 3.6.0)
+Imports: graphics, grDevices
+Suggests: callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12),
+        RSQLite, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: aef395a036db661d808f9871979a973d
