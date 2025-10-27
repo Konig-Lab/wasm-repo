@@ -53,7 +53,7 @@ Suggests: testthat, knitr, rmarkdown, vsn, pheatmap, RColorBrewer,
         apeglm, ashr, tximport, tximeta, tximportData, readr, pbapply,
         airway, glmGamPoi, BiocManager
 License: LGPL (>= 3)
-MD5sum: f3cd051ad82013894ac8045ad52bf0fb
+MD5sum: 6d1aed0145643fe01d21b1dcef528094
 NeedsCompilation: yes
 
 Package: DelayedArray
@@ -136,7 +136,7 @@ Imports: methods
 Suggests: Matrix, sparseMatrixStats, SparseArray, DelayedArray,
         DelayedMatrixStats, SummarizedExperiment, testthat (>= 2.1.0)
 License: Artistic-2.0
-MD5sum: ec828f5e740aed5937134fd5644c4874
+MD5sum: 61a0cce9c0057ce933244e5fa67deeff
 NeedsCompilation: no
 
 Package: Matrix
@@ -180,7 +180,7 @@ Version: 1.1.0
 Imports: methods, utils
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
-MD5sum: 4d977457394ef23b575621f3c3977b2b
+MD5sum: f06e1997b1d1721913d9096d9543d886
 NeedsCompilation: yes
 
 Package: S4Arrays
@@ -192,7 +192,7 @@ LinkingTo: S4Vectors
 Suggests: BiocParallel, SparseArray (>= 0.0.4), DelayedArray,
         HDF5Array, testthat, knitr, rmarkdown, BiocStyle
 License: Artistic-2.0
-MD5sum: ec1469fa889ef67ecb37ecaaca0622ec
+MD5sum: 300b6555451a91f0e72773bc26e4412c
 NeedsCompilation: yes
 
 Package: S4Vectors
@@ -213,7 +213,7 @@ Imports: utils
 Suggests: bench, callr, covr, knitr, methods, rmarkdown, testthat (>=
         3.2.0), tibble
 License: MIT + file LICENSE
-MD5sum: 1cc93c1bb4353ec15b031118c40b0062
+MD5sum: dc04911bdd5167c1b97236d18658a49d
 NeedsCompilation: yes
 
 Package: SparseArray
@@ -226,7 +226,7 @@ LinkingTo: S4Vectors, IRanges, XVector
 Suggests: HDF5Array, ExperimentHub, testthat, knitr, rmarkdown,
         BiocStyle
 License: Artistic-2.0
-MD5sum: 3f253115efe63c30a91168de2bdaddea
+MD5sum: a0ac52f2f4e9431c2b5aa54e26320bcb
 NeedsCompilation: yes
 
 Package: SummarizedExperiment
@@ -251,7 +251,7 @@ Imports: methods, stats, httr, jsonlite, S4Vectors
 Suggests: DBI, RMariaDB, GenomeInfoDb, testthat, knitr, rmarkdown,
         BiocStyle
 License: Artistic-2.0
-MD5sum: 50d7132b81cffee661fde118db9028d0
+MD5sum: c28d083f1d478054a5f38f257eac00fe
 NeedsCompilation: no
 
 Package: XVector
@@ -290,7 +290,7 @@ Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
         1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
         rstudioapi, testthat (>= 3.2.0), tibble, whoami, withr
 License: MIT + file LICENSE
-MD5sum: 0385c26465fc8320fb822c82d63b8a3c
+MD5sum: 70d2bbca4ff386ef0fafb29719be653a
 NeedsCompilation: yes
 
 Package: codetools
@@ -340,7 +340,7 @@ Version: 1.14
 Depends: R (>= 3.2.3)
 Suggests: rstudioapi, shiny, testit, rmarkdown, knitr
 License: GPL
-MD5sum: 3ae26c85b7d661a92d2d62848d97c9a0
+MD5sum: cbe791a2f3210acf2450b884ab53cbe9
 NeedsCompilation: no
 
 Package: futile.logger
@@ -365,7 +365,7 @@ Depends: R (>= 3.6)
 Imports: methods
 Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
 License: MIT + file LICENSE
-MD5sum: 1f8266ef4b848cea10e2762b9bcbe12a
+MD5sum: fbc4ad7d445e0afe9b3f9ac3c0216100
 NeedsCompilation: no
 
 Package: ggplot2
@@ -511,7 +511,7 @@ Suggests: cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr,
         (>= 3.2.0), tibble, usethis, vctrs (>= 0.2.3), withr
 Enhances: winch
 License: MIT + file LICENSE
-MD5sum: 55ad262e9a81dae82d11d09bdd052b1d
+MD5sum: 6e289fe081359f97afd065a79f83b416
 NeedsCompilation: yes
 
 Package: scales
